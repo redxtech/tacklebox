@@ -232,6 +232,6 @@ export const aliases = {
   kdelj: "kubectl delete job",
 
   // only run if the user actually has kubectl installed
-  kj: 'kubectl "$argv -o json | jq',
-  kjx: 'kubectl "$argv -o json | fx',
+  kj: 'kubectl "$argv -o json | jq"',
+  kjx: 'kubectl "$argv -o json | fx"',
 };
