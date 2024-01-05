@@ -1,3 +1,3 @@
 function kj
-	kubectl "$argv -o json | jq
+	kubectl "$argv -o json | jq"
 end
