@@ -1,3 +1,3 @@
-function kgrs
+function kgrs --wraps="kubectl get replicaset" --description "alias kgrs kubectl get replicaset"
 	kubectl get replicaset $argv
 end
