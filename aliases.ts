@@ -161,6 +161,7 @@ export const aliases = {
   krh: "kubectl rollout history",
   krr: "kubectl rollout restart",
   krd: "kubectl rollout restart deployment",
+  krs: "kubectl rollout restart statefulset",
   kru: "kubectl rollout undo",
 
   // statefulset management.
